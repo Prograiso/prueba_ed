@@ -35,6 +35,10 @@ print(numero1** 0.5)#raiz cuadrada
 numero=3
 
 if numero < 2 :
-    print("es menor")
+    print("es menor que 2")
+elif numero == 2:
+    print("es igual que 2")    
 else:
-    print("es mayor")
+    print("es mayor que 2")
+
+numero = int(input("ingrese un numero: "))
